@@ -125,6 +125,16 @@ a:hover{
 	outline: 0;
 }
 
+@media screen and (max-width:767px) {
+	.serviceTb{
+		display: none;
+	}
+	.campusTb{
+		margin-bottom: 10px !important;
+	}
+	
+}
+
 a:focus{
 	text-decoration: none;
 	outline: 0;
